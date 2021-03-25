@@ -3,5 +3,4 @@ ARG REVISION
 ARG SOURCE
 LABEL org.opencontainers.image.revision=$REVISION
 LABEL org.opencontainers.image.source=$SOURCE
-CMD ["echo", "hello world12345"]
-
+CMD ["echo", "hello world"]
